@@ -107,11 +107,3 @@ platformio device monitor -b 115200
 Copy `.mp3` files or supported PCM `.wav` files into any directory on the SD
 card. Scanning starts automatically at boot. Use **Rescan SD** after replacing
 the card or changing its contents.
-
-## Serial Logging
-
-Arduino core logging is limited to errors. Routine startup, successful mount,
-sample-rate, framebuffer, and headphone-state messages are disabled to avoid
-timing noise during playback. Fatal initialization failures, SD errors, audio
-errors, seek failures, and display fallback events remain available at
-115200 baud.
