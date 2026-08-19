@@ -4,8 +4,7 @@
   src="https://i.pinimg.com/736x/92/ca/44/92ca44180a5c342297c7fa14ffd7cf51.jpg"
   width="700"
   height="250"
-  style="object-fit: cover;"
->
+  style="object-fit: cover;">
 
 A touch-controlled MP3/WAV player for the M5Stack Tab5 (ESP32-P4), built
 with the Arduino framework and LVGL 9.5.
