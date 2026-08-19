@@ -1,10 +1,19 @@
 # M5Stack Tab5 LVGL Audio Player
 
-<img
-  src="https://i.pinimg.com/736x/92/ca/44/92ca44180a5c342297c7fa14ffd7cf51.jpg"
-  width="700"
-  height="250"
-  style="object-fit: cover;">
+<div style="
+  width: 700px;
+  height: 250px;
+  overflow: hidden;
+">
+  <img
+    src="https://i.pinimg.com/736x/92/ca/44/92ca44180a5c342297c7fa14ffd7cf51.jpg"
+    style="
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    ">
+</div>
 
 A touch-controlled MP3/WAV player for the M5Stack Tab5 (ESP32-P4), built
 with the Arduino framework and LVGL 9.5.
